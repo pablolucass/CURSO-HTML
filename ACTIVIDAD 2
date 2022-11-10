@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<!--Pablo Lucas Gómez-->
+<html lang="es">
+
+<head>
+    <title> Página web </title>
+    <meta charset="utf-8">
+</head>
+<body>
+<div>
+<h1>FORMULARIO</h1>
+        <form action="/" method="post" autocomplete="on">
+            <p>
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" size="30" maxlength="15" placeholder="Introduce el nombre" required autofocus />
+            </p>
+            <p>
+                <label for="edad">edad</label>
+                <input type="number" id="edad" name="age" size="30" maxlength="10" placeholder="Introduce la contraseña" required />
+
+            <p>
+                <label for="correo">Correo:</label>
+                <input type="email" id="correo" name="Correo" size="30" placeholder="Escriba su correo electronico" />
+            </p>
+            <p>
+                <label for="url">URL:</label>
+                <input type="url" id="url" name="URL" size="30" placeholder="Escriba la url" />
+            </p>
